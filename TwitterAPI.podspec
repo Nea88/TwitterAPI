@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/su_aska"
   s.source           = { :git => "https://github.com/s-aska/TwitterAPI.git", :tag => "#{s.version}" }
 
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
   s.requires_arc = true
 
